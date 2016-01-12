@@ -172,7 +172,7 @@ AidData <- CountryYearMatching(Data1 = AidData,
                                AddColumn = 6:18)
 write.csv(AidData, "AidData_w.Polity.FreedomH.csv") #これをver1としても複製して以下どんどん追加していく
 #######################################################################
-# Gini Index ＜欠損値が非常に多い＞
+# Gini Index 
 rm(list = ls())
 AidData <- read.csv("AidData_w.Polity.FreedomH.csv")
 library(foreign)
